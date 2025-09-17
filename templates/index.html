@@ -370,7 +370,7 @@
             async sendToBackend(question) {
                 try {
                     // Make real API call to your Python backend
-                    const response = await axios.post('http://localhost:5000/api/chat', {
+                    const response = await axios.post('https://abstractly-aw69.onrender.com/', {
                         question: question,
                         chat_history: this.chatHistory
                     }, {
