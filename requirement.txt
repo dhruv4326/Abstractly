@@ -1,0 +1,10 @@
+flask
+flask-cors
+gunicorn
+langchain
+langchain-community
+pinecone-client
+langchain-pinecone
+langchain-google-genai
+python-dotenv
+pypdf
